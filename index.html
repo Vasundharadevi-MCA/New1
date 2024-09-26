@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form</title>
+    </head>
+    <body style="background-color: rgb(118, 118, 118);">
+         <h1><u>Registration Form</u></h1><br>
+        <form>
+            <lable><b>First Name:</b></lable>
+            <input type="text" id="Fname" name="Firstname">
+            <br><br>
+            <label><b>Last Name:</b></label>
+            <input type="text" id="Lname" name="Lastname">
+            <br><br>
+            <label><b>Nick Name:</b></label>
+            <input type="text" id="Nname" name="Nickname">
+            <br><br>
+            <label><b>E-mail:</b></label>
+            <input type="email" id="email"name="Email">
+            <br><br>
+            <label><b>Password:</b></label>
+            <input type="password" id="password"name="password">
+            <br><br>
+            <label><b>Date of birth:</b></label>
+            <input type="date"id="dob" name="dob">
+            <br><br>
+            <label><b>Age:</b></label>
+            <input type="number" id="age" name="age">
+            <br><br>
+            <label><b>Gender:</b></label>
+            <input type="radio" name="gender" value="Male">Male 
+            <input type="radio" name="gender" value="Female">Female
+            <input type="radio" name="gender" value="others">Others  
+            <br><br>
+            <label><b>Mobile Number:</b></label> 
+            <input type="number" name="Mobilenumber" pattern="[0-9]{10}">
+            <br><br>
+            <label><b>Address:</b></label><br>
+            <textarea cols="50" rows="5" value="address"></textarea>
+            <br><br>
+            <label><b>City:</b></label>
+            <select>
+                <option value="select">Select</option>
+                <option value="Bangalore">Bangalore</option>
+                <option value="chennai">Chennai</option>
+                <option value="Coimbatore">Coimbatore</option>
+                <option vaule="Delhi">Delhi</option>
+                <option value="Dindigul">Dindigul</option>
+                <option value="Hyderabad">Hyderabad</option>
+                <option vaule="Madurai">Madurai</option>
+            </select> <br><br>
+            <label><b>Hobbies:</b></label><br>
+            <input type="checkbox" name="hobby" value="Reading">Reading the Book<br>
+            <input type="checkbox" name="hobby" value="travelling">Travelling<br>
+            <input type="checkbox" name="hobby" value="Gaming">Gaming<br>
+            <input type="checkbox" name="hobby" value="cooking">Cooking
+            <br><br>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </form>
+    </body>
+    <style>
+        
